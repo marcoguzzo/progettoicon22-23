@@ -1,0 +1,25 @@
+Price                    1.000000
+Power(BHP)               0.845615
+Torque(Nm)               0.750300
+sport_cars               0.667676
+Fuel_Tank_Capacity(L)    0.660050
+drive_easy               0.613977
+CC_Displacement          0.603398
+travel                   0.528788
+Make_Year                0.527597
+Year_Category            0.500079
+Body_Type                0.478838
+Transmission             0.477879
+Fuel_Type                0.386948
+euro                     0.377115
+kilometer_at_liter       0.344536
+consumption              0.277405
+Transmission_Type        0.172258
+kilometers_run           0.168158
+No_of_Owners             0.149180
+Seating_Capacity         0.072004
+Model                    0.044980
+Color                    0.018730
+Make                     0.013966
+ID                       0.009379
+Name: Price, dtype: float64

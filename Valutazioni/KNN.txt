@@ -1,0 +1,4 @@
+KNN: 
+Average MSE Score: 0.00381398113812284,
+ Average MAE Score: 0.038356513819906,
+Average R^2 Score: 0.7693697292761618,

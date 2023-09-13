@@ -1,0 +1,4 @@
+DECISION TREE: 
+Average MSE Score: 0.0,
+ Average MAE Score: 0.0,
+Average R2 Score: 1.0,

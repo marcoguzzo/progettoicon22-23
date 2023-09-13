@@ -1,0 +1,190 @@
+Valori medi ottenuti tramite kfold:
+
+KNN
+Parameters: {'n_neighbors': 3}
+Average R2: 0.8381, Average mae Score: 0.0357, Average mse Score: 0.0031.
+KNN
+Parameters: {'n_neighbors': 4}
+Average R2: 0.8417, Average mae Score: 0.0362, Average mse Score: 0.0030.
+KNN
+Parameters: {'n_neighbors': 5}
+Average R2: 0.8397, Average mae Score: 0.0370, Average mse Score: 0.0031.
+KNN
+Parameters: {'n_neighbors': 6}
+Average R2: 0.8337, Average mae Score: 0.0380, Average mse Score: 0.0032.
+KNN
+Parameters: {'n_neighbors': 7}
+Average R2: 0.8241, Average mae Score: 0.0389, Average mse Score: 0.0034.
+KNN
+Parameters: {'n_neighbors': 8}
+Average R2: 0.8205, Average mae Score: 0.0396, Average mse Score: 0.0034.
+KNN
+Parameters: {'n_neighbors': 9}
+Average R2: 0.8185, Average mae Score: 0.0398, Average mse Score: 0.0035.
+KNN
+Parameters: {'n_neighbors': 10}
+Average R2: 0.8135, Average mae Score: 0.0405, Average mse Score: 0.0036.
+KNN best parameters: {'n_neighbors': 4}
+Average mae Score: 0.0362, Average  mse Score: 0.0030, Average R2 Score: 0.8417.
+
+
+Decision Tree
+Parameters: {'max_depth': 3}
+Average R2: 0.7808, Average mae Score: 0.0471, Average mse Score: 0.0039.
+Decision Tree
+Parameters: {'max_depth': 4}
+Average R2: 0.7941, Average mae Score: 0.0411, Average mse Score: 0.0036.
+Decision Tree
+Parameters: {'max_depth': 5}
+Average R2: 0.8099, Average mae Score: 0.0377, Average mse Score: 0.0033.
+Decision Tree
+Parameters: {'max_depth': 6}
+Average R2: 0.8311, Average mae Score: 0.0343, Average mse Score: 0.0029.
+Decision Tree
+Parameters: {'max_depth': 7}
+Average R2: 0.8411, Average mae Score: 0.0325, Average mse Score: 0.0028.
+Decision Tree
+Parameters: {'max_depth': 8}
+Average R2: 0.8794, Average mae Score: 0.0299, Average mse Score: 0.0022.
+Decision Tree
+Parameters: {'max_depth': 9}
+Average R2: 0.8793, Average mae Score: 0.0294, Average mse Score: 0.0022.
+Decision Tree
+Parameters: {'max_depth': 10}
+Average R2: 0.8511, Average mae Score: 0.0297, Average mse Score: 0.0026.
+Decision Tree best parameters: {'max_depth': 8}
+Average mae Score: 0.0299, Average  mse Score: 0.0022, Average R2 Score: 0.8794.
+
+
+Random Forest
+Parameters: {'max_depth': 5, 'n_estimators': 50}
+Average R2: 0.8703, Average mae Score: 0.0318, Average mse Score: 0.0024.
+Random Forest
+Parameters: {'max_depth': 5, 'n_estimators': 100}
+Average R2: 0.8721, Average mae Score: 0.0315, Average mse Score: 0.0023.
+Random Forest
+Parameters: {'max_depth': 5, 'n_estimators': 150}
+Average R2: 0.8719, Average mae Score: 0.0317, Average mse Score: 0.0023.
+Random Forest
+Parameters: {'max_depth': 5, 'n_estimators': 200}
+Average R2: 0.8721, Average mae Score: 0.0315, Average mse Score: 0.0023.
+Random Forest
+Parameters: {'max_depth': 10, 'n_estimators': 50}
+Average R2: 0.9041, Average mae Score: 0.0251, Average mse Score: 0.0018.
+Random Forest
+Parameters: {'max_depth': 10, 'n_estimators': 100}
+Average R2: 0.9051, Average mae Score: 0.0247, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 10, 'n_estimators': 150}
+Average R2: 0.9065, Average mae Score: 0.0247, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 10, 'n_estimators': 200}
+Average R2: 0.9060, Average mae Score: 0.0247, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 15, 'n_estimators': 50}
+Average R2: 0.9068, Average mae Score: 0.0242, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 15, 'n_estimators': 100}
+Average R2: 0.9048, Average mae Score: 0.0242, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 15, 'n_estimators': 150}
+Average R2: 0.9081, Average mae Score: 0.0241, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 15, 'n_estimators': 200}
+Average R2: 0.9076, Average mae Score: 0.0241, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 20, 'n_estimators': 50}
+Average R2: 0.9081, Average mae Score: 0.0243, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 20, 'n_estimators': 100}
+Average R2: 0.9082, Average mae Score: 0.0241, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 20, 'n_estimators': 150}
+Average R2: 0.9085, Average mae Score: 0.0241, Average mse Score: 0.0017.
+Random Forest
+Parameters: {'max_depth': 20, 'n_estimators': 200}
+Average R2: 0.9090, Average mae Score: 0.0241, Average mse Score: 0.0017.
+Random Forest best parameters: {'max_depth': 20, 'n_estimators': 50}
+Average mae Score: 0.0243, Average  mse Score: 0.0017, Average R2 Score: 0.9081.
+
+
+Ada Boost 
+Parameters: {'learning_rate': 0.01, 'n_estimators': 50}
+Average R2: 0.9134, Average mae Score: 0.0235, Average mse Score: 0.0016.
+Ada Boost 
+Parameters: {'learning_rate': 0.01, 'n_estimators': 100}
+Average R2: 0.9163, Average mae Score: 0.0234, Average mse Score: 0.0016.
+Ada Boost 
+Parameters: {'learning_rate': 0.01, 'n_estimators': 150}
+Average R2: 0.8871, Average mae Score: 0.0241, Average mse Score: 0.0020.
+Ada Boost 
+Parameters: {'learning_rate': 0.01, 'n_estimators': 200}
+Average R2: 0.8841, Average mae Score: 0.0241, Average mse Score: 0.0021.
+Ada Boost 
+Parameters: {'learning_rate': 0.1, 'n_estimators': 50}
+Average R2: 0.8881, Average mae Score: 0.0242, Average mse Score: 0.0020.
+Ada Boost 
+Parameters: {'learning_rate': 0.1, 'n_estimators': 100}
+Average R2: 0.8865, Average mae Score: 0.0234, Average mse Score: 0.0021.
+Ada Boost 
+Parameters: {'learning_rate': 0.1, 'n_estimators': 150}
+Average R2: 0.8868, Average mae Score: 0.0236, Average mse Score: 0.0020.
+Ada Boost 
+Parameters: {'learning_rate': 0.1, 'n_estimators': 200}
+Average R2: 0.8935, Average mae Score: 0.0234, Average mse Score: 0.0019.
+Ada Boost 
+Parameters: {'learning_rate': 1.0, 'n_estimators': 50}
+Average R2: 0.9190, Average mae Score: 0.0221, Average mse Score: 0.0016.
+Ada Boost 
+Parameters: {'learning_rate': 1.0, 'n_estimators': 100}
+Average R2: 0.9197, Average mae Score: 0.0219, Average mse Score: 0.0016.
+Ada Boost 
+Parameters: {'learning_rate': 1.0, 'n_estimators': 150}
+Average R2: 0.9214, Average mae Score: 0.0221, Average mse Score: 0.0015.
+Ada Boost 
+Parameters: {'learning_rate': 1.0, 'n_estimators': 200}
+Average R2: 0.9219, Average mae Score: 0.0218, Average mse Score: 0.0015.
+Ada Boost  best parameters: {'learning_rate': 1.0, 'n_estimators': 200}
+Average mae Score: 0.0218, Average  mse Score: 0.0015, Average R2 Score: 0.9219.
+
+
+Gradient Boosting 
+Parameters: {'learning_rate': 0.01, 'n_estimators': 50}
+Average R2: 0.5142, Average mae Score: 0.0718, Average mse Score: 0.0089.
+Gradient Boosting 
+Parameters: {'learning_rate': 0.01, 'n_estimators': 100}
+Average R2: 0.7175, Average mae Score: 0.0557, Average mse Score: 0.0052.
+Gradient Boosting 
+Parameters: {'learning_rate': 0.01, 'n_estimators': 150}
+Average R2: 0.8038, Average mae Score: 0.0453, Average mse Score: 0.0036.
+Gradient Boosting 
+Parameters: {'learning_rate': 0.01, 'n_estimators': 200}
+Average R2: 0.8431, Average mae Score: 0.0389, Average mse Score: 0.0029.
+Gradient Boosting 
+Parameters: {'learning_rate': 0.1, 'n_estimators': 50}
+Average R2: 0.8893, Average mae Score: 0.0283, Average mse Score: 0.0020.
+Gradient Boosting 
+Parameters: {'learning_rate': 0.1, 'n_estimators': 100}
+Average R2: 0.9046, Average mae Score: 0.0252, Average mse Score: 0.0017.
+Gradient Boosting 
+Parameters: {'learning_rate': 0.1, 'n_estimators': 150}
+Average R2: 0.9073, Average mae Score: 0.0243, Average mse Score: 0.0017.
+Gradient Boosting 
+Parameters: {'learning_rate': 0.1, 'n_estimators': 200}
+Average R2: 0.9099, Average mae Score: 0.0237, Average mse Score: 0.0016.
+Gradient Boosting 
+Parameters: {'learning_rate': 1.0, 'n_estimators': 50}
+Average R2: 0.8852, Average mae Score: 0.0299, Average mse Score: 0.0021.
+Gradient Boosting 
+Parameters: {'learning_rate': 1.0, 'n_estimators': 100}
+Average R2: 0.8820, Average mae Score: 0.0303, Average mse Score: 0.0021.
+Gradient Boosting 
+Parameters: {'learning_rate': 1.0, 'n_estimators': 150}
+Average R2: 0.8806, Average mae Score: 0.0306, Average mse Score: 0.0022.
+Gradient Boosting 
+Parameters: {'learning_rate': 1.0, 'n_estimators': 200}
+Average R2: 0.8829, Average mae Score: 0.0304, Average mse Score: 0.0021.
+Gradient Boosting  best parameters: {'learning_rate': 0.1, 'n_estimators': 200}
+Average mae Score: 0.0237, Average  mse Score: 0.0016, Average R2 Score: 0.9099.
+
+

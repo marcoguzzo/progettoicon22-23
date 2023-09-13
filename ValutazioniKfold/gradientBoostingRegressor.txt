@@ -1,0 +1,4 @@
+Gradient Boosting Regressor: 
+Average MSE Score: 0.0006265652772137396,
+ Average MAE Score: 0.01894495772754389,
+Average R2 Score: 0.9647726244639359,
